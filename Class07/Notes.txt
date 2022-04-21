@@ -1,0 +1,50 @@
+Selenium Class 07
+
+Interview question
+
+How do you handle Alerts in selenium?
+We handle Alerts by using Alerts interface
+
+Handling multiple windows(tabs)
+In order for us to handle multiple windows we will be using:
+getWindowHandle()
+getWindowHandles()
+
+WindowHandle:
+is a unique ID that holds the address of the window or a tab
+It is approximately a 40 alphanumeric character ID
+
+Synchronization:
+is the process of bringing the speed of two or more components the same level
+in this case we are bringing out script and page load to the same speed level
+
+Thread.sleep() -- static wait / unconditional wait
+
+Types of selenium waits:
+implicit wait
+Explicit wait
+Fluent wait
+
+Implicit wait:
+it tells the webdriver to wait for a certain amount of time before throwing an exception
+ir will only be written once and will be applied to the whole session of the execution
+We can say that Implicit wait is a global wait
+
+Implicit wait is usually set to 20 sec. If your element is found in any time between the given time
+the remaining time will be ignored and your script will move on to the next line or action
+
+If the element is not found in a given time, ONLY then you will get an exception
+
+
+
+
+
+
+
+
+
+
+
+
+
+

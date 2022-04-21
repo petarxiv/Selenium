@@ -1,0 +1,48 @@
+How to get a text in the console:
+
+WebElement text1=driver.findElement(By.xpath("//h1[@id='sampleHeading']"));
+System.out.println(text1.getText());
+
+Implicit wait:
+will be applied for findElement method
+
+Explicit wait or WebDriver Wait:
+is used to tell the webdriver to wait for a certain condition
+before throwing an exception for a specified condition
+
+Explicit wait works with ExpectedConditions class and
+waits until certain conditions are met or the given time is achieved
+
+*sign in xpath is a wild card which can identify any tagname
+//*[contains(text(), 'Welcome')]
+
+Fluent Wait --> global wait
+it is used to tell the webdriver to wait for certain condition as well as its frequency
+before throwing an exception
+
+Implicit wait -- waits to locate the element
+Explicit wait -- waits until certain condition
+Fluent wait -- sets timeouts. polling and ignores needed exceptions in the given time period
+
+WebTables
+Webtables are elements on the webpage, which are constructed by having rows and columns
+
+Types of WebTables:
+1. Static webtable
+2. Dynamic webtable
+
+WebTables consist of different sections or parts
+<table>
+ <thead>
+    <tr>
+        <th></th> -- column data or heading
+    </tr>
+</thead>
+<tbody>
+     <tr>
+         <td></td> -- table data
+     </tr>
+ </tbody>
+</table>
+
+

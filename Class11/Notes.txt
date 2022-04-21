@@ -1,0 +1,33 @@
+If regular click does not work you can use the alternative
+way of having Actions class click method
+
+Upload Documents:
+In order to upload documents using selenium we simply do
+sendKeys(filePath)
+
+If sendKeys does not work, you can use Robot class
+
+JavaScriptExecutor
+it is a library in selenium which can be executed in different programming languages
+(java, c#, python etc)
+
+JSExecutor is an interface
+
+Actions which can be performed by using JSExecutor:
+Click on the element
+scroll through the page
+refresh the page
+highlight an element
+scroll to a specific element
+open a new tab
+
+
+
+
+
+
+
+
+
+
+
